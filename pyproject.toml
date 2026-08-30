@@ -8,6 +8,7 @@ version = "1.0.0"
 description = "AIDO-AUDIT-CAV reference implementation and frozen metric replay"
 requires-python = ">=3.10"
 dependencies = []
+license = {text = "Apache-2.0"}
 
 [project.scripts]
 aido-cav = "aido_cav.cli:main"

@@ -4,7 +4,7 @@ This repository is prepared for a GitHub → Zenodo software archive.
 
 ## Before creating the GitHub release
 
-1. Human-select the software license. The repository intentionally does **not** infer a license.
+1. **License gate: PASS — Apache-2.0.** Confirm `LICENSE`, `CITATION.cff`, `.zenodo.json`, and `pyproject.toml` remain synchronized.
 2. Confirm `main` tests pass:
    ```bash
    python -m unittest discover -s tests -v
