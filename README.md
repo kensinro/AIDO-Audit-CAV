@@ -46,3 +46,24 @@ python -m aido_cav.cli public-summary
 ```
 
 No third-party runtime dependency is required.
+
+## Frozen reproducibility layer
+
+Redistributable aggregate endpoint objects and governance summaries are provided in `reproducibility/`.
+They preserve the P2 information-ablation semantics, the two contaminated Arm-C HOLD events, the P3 11/12 raw miss,
+and the P4 denominator accounting without redistributing restricted third-party evidence text.
+
+Run:
+
+```bash
+python reproducibility/recompute_frozen_endpoints.py
+```
+
+## Citation and software archive
+
+- `CITATION.cff` describes the software citation.
+- `.zenodo.json` supplies Zenodo software metadata.
+- `ZENODO_RELEASE_CHECKLIST.md` defines the GitHub → Zenodo release gate.
+
+A software license is intentionally **not inferred**. Select a license through Human governance before publishing `v1.0.0`
+as a GitHub/Zenodo release.
