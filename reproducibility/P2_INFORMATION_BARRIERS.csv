@@ -1,0 +1,4 @@
+arm,permitted_information,prohibited_information,status
+ARM_A_EEA_ONLY,"opaque claim object; claim type/scope/strength; Rmin/Rfull; assumptions/dependencies/falsification triggers/inference ceiling; conventional-only evidence","BBA hidden-output evidence except conventional performance premise; P1 final states/wording; historical AE×BBA states; any CAV outcome",FROZEN
+ARM_B_BBA_ONLY,"opaque neutral claim object; source file/location; BBA observed evidence","EEA Rmin/Rfull; EEA state; permitted/prohibited wording; historical AE×BBA states; CAV outcome",FROZEN
+ARM_C_CAV,"opaque claim object; EEA contract fields; BBA observed evidence; provenance","P1 final state; P1 permitted/prohibited wording; historical AE×BBA state; other arm outputs; new evidence",FROZEN
