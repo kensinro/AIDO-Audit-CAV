@@ -65,5 +65,10 @@ python reproducibility/recompute_frozen_endpoints.py
 - `.zenodo.json` supplies Zenodo software metadata.
 - `ZENODO_RELEASE_CHECKLIST.md` defines the GitHub → Zenodo release gate.
 
-A software license is intentionally **not inferred**. Select a license through Human governance before publishing `v1.0.0`
-as a GitHub/Zenodo release.
+## License
+
+The source code and redistributable software/reproducibility utilities in this repository are released under the
+**Apache License 2.0**. See `LICENSE`.
+
+The license does not expand the redistribution rights of third-party source material. Restricted third-party evidence
+text remains outside this repository unless its original license independently permits redistribution.
