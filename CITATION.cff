@@ -8,6 +8,7 @@ authors:
 version: 1.0.0
 date-released: 2026-08-31
 repository-code: "https://github.com/kensinro/AIDO-Audit-CAV"
+doi: 10.5281/zenodo.22179598
 license: Apache-2.0
 keywords:
   - scientific audit
