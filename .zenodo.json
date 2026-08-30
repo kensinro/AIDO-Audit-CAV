@@ -1,7 +1,7 @@
 {
   "title": "AIDO-AUDIT-CAV: reference and reproducibility utilities for cross-audit scientific adjudication",
   "upload_type": "software",
-  "description": "Reference implementation and reproducibility utilities accompanying the CAV manuscript on bounded scientific adjudication under non-equivalent audit evidence. The repository validates/scorers frozen semantic outputs and does not claim to recreate blinded semantic LLM adjudications or redistribute restricted third-party evidence text.",
+  "description": "Reference implementation and reproducibility utilities accompanying the CAV manuscript on bounded scientific adjudication under non-equivalent audit evidence. The repository validates/scores frozen semantic outputs and does not claim to recreate blinded semantic LLM adjudications or redistribute restricted third-party evidence text.",
   "creators": [
     {
       "name": "Kong, Sin Guan"
