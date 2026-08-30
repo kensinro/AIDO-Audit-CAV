@@ -1,0 +1,5 @@
+opaque_id,controller_role,seeded_fault_detected,exact_localization,region_localization,control_overqualification,claim_ceiling_safety,safe_nonadjudication,operator_boundary_action
+SYN-P3-001,SEEDED_SINGLE_FAULT_VARIANT,YES,YES,YES,N/A,YES,NO,QUALIFY_TO_CEILING
+SYN-P3-002,SEEDED_SINGLE_FAULT_VARIANT,NO,NO,NO,N/A,YES,NO,RETAIN_WITHIN_CEILING
+SYN-P3-003,CONTROL,N/A,N/A,N/A,NO,YES,NO,RETAIN_WITHIN_CEILING
+SYN-P3-004,CONTROL,N/A,N/A,N/A,NO,YES,NO,RETAIN_WITHIN_CEILING
