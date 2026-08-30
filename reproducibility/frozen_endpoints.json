@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "p1": {
+    "claims": 18,
+    "final_EEA": {"ENTITLED": 14, "QUALIFIED": 4, "ABSTAIN": 0, "NOT_ENTITLED": 0, "CONTRADICTED": 0},
+    "bba_new_or_materially_expanded_visibility": {"numerator": 17, "denominator": 18},
+    "eea_boundary_narrowing": {"numerator": 4, "denominator": 18},
+    "independent_gold": false
+  },
+  "p2": {
+    "denominator_per_arm": 18,
+    "arm_A": {"RETAIN": 1, "NARROW": 1, "ABSTAIN": 16},
+    "arm_B": {"evaluable": 18, "boundary_exposed": 18, "entitlement_terminal_action": "NOT_ASSIGNED_BY_DESIGN"},
+    "arm_C": {"RETAIN_WITHIN_CEILING": 13, "QUALIFY_TO_CEILING": 5, "ABSTAIN": 0},
+    "contaminated_arm_C_attempts": 2,
+    "claim_level_verdicts_per_contaminated_attempt": 0
+  },
+  "p3": {
+    "seeded_faults": 12,
+    "clean_controls": 12,
+    "detection": {"numerator": 11, "denominator": 12},
+    "exact_localization": {"numerator": 11, "denominator": 12},
+    "region_localization": {"numerator": 11, "denominator": 12},
+    "conditional_localization_among_detected": {"numerator": 11, "denominator": 11},
+    "controls_retained": {"numerator": 12, "denominator": 12},
+    "control_overqualification": {"numerator": 0, "denominator": 12},
+    "safe_abstention": {"numerator": 2, "denominator": 24},
+    "claim_ceiling_violations": {"numerator": 0, "denominator": 24}
+  },
+  "p4": {
+    "p4a_full_110_trial_reconstruction": "HOLD_FULL_110_DENOMINATOR_RECONSTRUCTION",
+    "p4be": {"articles": 333, "total_prompts": 1215, "determinate": 1020, "selective_agreement": 967, "abstention": 195, "determinate_disagreement": 53, "claim_ceiling_violations": 0},
+    "evidence_provided": true,
+    "autonomous_retrieval_validated": false
+  }
+}
