@@ -3,6 +3,8 @@
 **Version:** 1.0.0  
 **Date:** 2026-08-30
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22179598.svg)](https://doi.org/10.5281/zenodo.22179598)
+
 Public-facing reference implementation for the Final-Locked **AIDO-AUDIT-CAV v1.0**.
 
 ## Included
@@ -61,9 +63,13 @@ python reproducibility/recompute_frozen_endpoints.py
 
 ## Citation and software archive
 
+- Software DOI: `10.5281/zenodo.22179598`
+- Zenodo archive: https://doi.org/10.5281/zenodo.22179598
 - `CITATION.cff` describes the software citation.
-- `.zenodo.json` supplies Zenodo software metadata.
-- `ZENODO_RELEASE_CHECKLIST.md` defines the GitHub → Zenodo release gate.
+- `.zenodo.json` supplies Zenodo software metadata for GitHub-triggered archiving.
+- `ZENODO_RELEASE_CHECKLIST.md` records the GitHub → Zenodo release gate.
+
+The Zenodo DOI identifies the **software release**. It is distinct from the manuscript-linked Dryad data/audit-artifact archive and any future Dryad DOI.
 
 ## License
 
