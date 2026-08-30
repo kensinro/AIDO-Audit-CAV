@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the software release and the associated CAV manuscript."
+title: "AIDO-AUDIT-CAV"
+type: software
+authors:
+  - family-names: "Kong"
+    given-names: "Sin Guan"
+version: 1.0.0
+date-released: 2026-08-31
+repository-code: "https://github.com/kensinro/AIDO-Audit-CAV"
+keywords:
+  - scientific audit
+  - claim entitlement
+  - abstention
+  - partial observability
+  - biomedical informatics
