@@ -1,26 +1,23 @@
 # Zenodo release checklist — AIDO-AUDIT-CAV v1.0.0
 
-This repository is prepared for a GitHub → Zenodo software archive.
+This repository has completed the GitHub → Zenodo software archive workflow.
 
-## Before creating the GitHub release
+## Release status
 
-1. **License gate: PASS — Apache-2.0.** Confirm `LICENSE`, `CITATION.cff`, `.zenodo.json`, and `pyproject.toml` remain synchronized.
-2. Confirm `main` tests pass:
-   ```bash
-   python -m unittest discover -s tests -v
-   python reproducibility/recompute_frozen_endpoints.py
-   ```
-3. Confirm `PACKAGE_MANIFEST_SHA256.csv` matches the release tree.
-4. Enable this repository in the Zenodo GitHub integration.
-5. Create the GitHub release/tag exactly as `v1.0.0`.
-6. Confirm the resulting Zenodo software record describes **software**, not a data archive.
-7. Record the Zenodo DOI in the CAV controlled metadata patch only after the DOI actually exists.
+1. Software license: **PASS — Apache-2.0**
+2. `main` tests/reproducibility checks: **PASS before release**
+3. `PACKAGE_MANIFEST_SHA256.csv`: synchronized to the release tree
+4. Zenodo GitHub integration: **Enabled**
+5. GitHub release/tag: **Published — `v1.0.0`**
+6. Zenodo software record: **Published**
+7. Zenodo software DOI: **10.5281/zenodo.22179598**
 
 ## Archive separation
 
 - GitHub / Zenodo: executable source, tests, frozen aggregate endpoint inputs, release metadata.
 - Dryad: manuscript-linked data/audit artifacts and reproducibility objects where appropriate.
 - Restricted third-party article content is not redistributed unless the original license permits it.
+- The Zenodo software DOI is not the Dryad data DOI and must not be substituted for it in the manuscript Data Availability statement.
 
 ## Claim boundary
 
