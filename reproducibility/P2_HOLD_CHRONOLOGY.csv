@@ -1,0 +1,3 @@
+attempt,disposition,claim_level_verdicts,source_result_mutations,new_integration_inferences,denominator_changes,note
+ATTEMPT_1,HOLD_INFORMATION_BARRIER,0,0,0,0,"Prior controller/P1 information and Arm-B operator report available before adjudication; packet itself passed precheck."
+ATTEMPT_2,HOLD_INFORMATION_BARRIER,0,0,0,0,"Execution context not isolated from prior CAV/P2/Arm-C history; same frozen packet; no verdict issued."
